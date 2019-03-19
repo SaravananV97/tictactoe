@@ -1,0 +1,43 @@
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class = "child">
+      <span>Human: </span><span id = "human"></span>
+      <br>
+      <span>AI: </span><span id = "ai"></span>
+    </div>
+    <div class = "child">
+    <div id = "modal">
+      <span style = "display:none" id = "winner"></span>
+            <button style = "margin: 20px" onclick = "initBoard()">Replay</button>
+    </div>
+    <div class = "board">
+    <table>
+      <tr>
+        <td class = "cell" id = "0"></td>
+        <td class = "cell" id = "1"></td>
+        <td class = "cell" id = "2"></td>
+      </tr>
+       <tr>
+        <td class = "cell" id = "3"></td>
+        <td class = "cell" id = "4"></td>
+        <td class = "cell" id = "5"></td>
+     </tr>
+      <tr>
+        <td class = "cell" id = "6"></td>
+        <td class = "cell" id = "7"></td>
+        <td class = "cell" id = "8"></td>
+      </tr>
+    </table>
+    </div>
+    <div>
+    </div>
+    </div>
+    <div class = "child">
+      <h1 id= "result"></h1>
+    </div>
+  </body>
+  <script type="text/javascript" src="script.js"></script>
+</html>
